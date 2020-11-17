@@ -27,7 +27,7 @@ class RomeNumbersParser {
                 if(greekFract == null){
                     throw new UnexpectedException("Unable to parse char:" + ch);
                 }
-                greekTotalNumber = greekTotalNumber + greekFract;
+                greekTotalNumber = + greekFract;
             }
 
             System.out.println("Greek value:" + greekTotalNumber);
